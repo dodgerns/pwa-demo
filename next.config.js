@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const withPWA = require('next-pwa');
+const runtimeCaching = require("next-pwa/cache");
 
 const config = {
   experimental: {
@@ -9,7 +10,10 @@ const config = {
 };
 
 const nextConfig = withPWA({
-  dest: 'public'
+  dest: 'public',
+  register: true,
+	skipWaiting: true,
+	runtimeCaching,
 })(
   config
 );
