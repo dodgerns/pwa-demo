@@ -2,6 +2,7 @@
     "theme_color": "#4a90e2",
     "background_color": "#9013fe",
     "display": "minimal-ui",
+    "id": "/",
     "scope": "/",
     "start_url": "/",
     "name": "nicos",
