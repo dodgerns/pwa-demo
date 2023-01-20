@@ -3,8 +3,8 @@
     "background_color": "#9013fe",
     "display": "minimal-ui",
     "id": "/",
-    "scope": "/",
     "start_url": "/",
+    "scope": ".",
     "name": "nicos",
     "short_name": "nicos",
     "icons": [
