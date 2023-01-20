@@ -3,8 +3,8 @@
     "background_color": "#9013fe",
     "display": "minimal-ui",
     "id": "/",
-    "scope": "https://pwa-demo-omega.vercel.app/",
-    "start_url": "https://pwa-demo-omega.vercel.app/",
+    "scope": "https://pwa-demo-omega.vercel.app",
+    "start_url": "https://pwa-demo-omega.vercel.app",
     "name": "nicos",
     "short_name": "nicos",
     "icons": [
